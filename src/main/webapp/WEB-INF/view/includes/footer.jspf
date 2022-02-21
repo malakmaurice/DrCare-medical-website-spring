@@ -1,0 +1,207 @@
+<footer>
+    <div class="main-content">
+        <div class="first box">
+            <div class="about">
+                <a href="#home">
+                    <h2>Dr.<span>care</span></h2>
+                </a>
+                <div class="content">
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and
+                        Consonantia,
+                        there
+                        live the blind texts.
+                    </p>
+                </div>
+            </div>
+            <div class="question">
+                <h2>Have a Questions</h2>
+                <div class="content">
+                    <div class="place">
+                        <span class="iconify" data-icon="ic:baseline-place"></span>
+                        <span class="text">Hdaiq El Qouba</span>
+                    </div>
+                    <div class="phone">
+                        <span class="iconify" data-icon="bx:bxs-phone"></span>
+                        <span class="text">+02-01223668870</span>
+                    </div>
+                    <div class="email">
+                        <span class="iconify" data-icon="eva:email-outline"></span>
+                        <span class="text">malakmaurice123@gmail.com</span>
+                    </div>
+                    <div class="social">
+                        <a href="https://twitter.com/malak_maurice" target="_blank">
+                            <span class="iconify" data-icon="akar-icons:twitter-fill"></span>
+                        </a>
+                        <a href="https://www.instagram.com/malak_maurice/" target="_blank">
+                            <span class="iconify" data-icon="akar-icons:instagram-fill"></span>
+                        </a>
+                        <a href="https://www.facebook.com/malak.maurice.1" target="_blank">
+                            <span class="iconify" data-icon="bx:bxl-facebook" data-inline="false"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="second box">
+            <div class="link">
+                <h2>Links</h2>
+                <div class="list">
+                    <ul>
+                        <li>
+                            <a href="#" onclick="displayHome()">
+                                <span class="iconify" data-icon="ion-ios-arrow-round-forward"></span>Home
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" onclick="displayAbout()">
+                                <span class="iconify" data-icon="ion-ios-arrow-round-forward"></span>About
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" onclick="dispalyDoctor()">
+                                <span class="iconify" data-icon="ion-ios-arrow-round-forward"></span>Services
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" onclick="displayDepartment()">
+                                <span class="iconify" data-icon="ion-ios-arrow-round-forward"></span>Deparments
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" onclick="displaContect()">
+                                <span class="iconify" data-icon="ion-ios-arrow-round-forward"></span>contact
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="service">
+                <h2>Services</h2>
+                <div class="list">
+                    <ul>
+                        <li>
+                            <a href="#" onclick="displayDepartment()">
+                                <span class="iconify" data-icon="ion-ios-arrow-round-forward"></span>Neurolgy
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" onclick="displayDepartment()">
+                                <span class="iconify" data-icon="ion-ios-arrow-round-forward"></span>Dentist
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" onclick="displayDepartment()">
+                                <span class="iconify" data-icon="ion-ios-arrow-round-forward"></span>Ophthalmology
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" onclick="displayDepartment()">
+                                <span class="iconify" data-icon="ion-ios-arrow-round-forward"></span>Cardiology
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" onclick="displayDepartment()">
+                                <span class="iconify" data-icon="ion-ios-arrow-round-forward"></span>Surgery
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="third box">
+            <h2>Recent Blog</h2>
+            <div class="content">
+                <div class="first-blog">
+                    <div>
+                        <a href="#">
+                            <img src="https://preview.colorlib.com/theme/drcare/images/image_1.jpg"
+                                 alt="recent blog">
+                        </a>
+                    </div>
+                    <div class="data-blog">
+                        <div class="heading">
+                            <a href="#">Even the all-powerful Pointing has no control about</a>
+                        </div>
+                        <div class="data">
+                            <div class="date">
+                                <a href=""><span class="iconify" data-icon="ci:calendar" data-inline="false"></span>
+                                    <span>Apr 13,2021</span></a>
+                            </div>
+                            <div class="admin">
+                                <a href=""> <span class="iconify" data-icon="dashicons:admin-users"
+                                                  data-inline="false"></span>
+                                    <span>Admin</span></a>
+                            </div>
+                            <div class="comment">
+                                <a href="">
+                                        <span class="iconify" data-icon="bx:bxs-comment-detail"
+                                              data-inline="false"></span>
+                                    <span>14</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="second-blog">
+                    <a href="">
+                        <img src="https://preview.colorlib.com/theme/drcare/images/image_2.jpg" alt="recent blog">
+                    </a>
+                    <div class="data-blog">
+                        <div class="heading">
+                            <a href="">Even the all-powerful Pointing has no control about</a>
+                        </div>
+                        <div class="data">
+                            <div class="date">
+                                <a href=""><span class="iconify" data-icon="ci:calendar" data-inline="false"></span>
+                                    <span>Apr 13,2021</span></a>
+                            </div>
+                            <div class="admin">
+                                <a href=""> <span class="iconify" data-icon="dashicons:admin-users"
+                                                  data-inline="false"></span>
+                                    <span>Admin</span></a>
+                            </div>
+                            <div class="comment">
+                                <a href="">
+                                        <span class="iconify" data-icon="bx:bxs-comment-detail"
+                                              data-inline="false"></span>
+                                    <span>14</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="forth box">
+            <div class="opening-hour">
+                <h2>Opening Hours</h2>
+                <div class="hour">
+                    <span class="iconify" data-icon="fluent:clock-28-filled"></span>
+                    <span class="opeing-hour-data">We are open 24/7</span>
+                </div>
+            </div>
+            <div class="subscribe">
+                <h2>Subscribe Us</h2>
+                <form action="">
+                    <div class="email">
+                        <input type="email" placeholder="Enter email adress">
+                    </div>
+                    <div class="btn">
+                        <button type="submit">Subscribe</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+
+    </div>
+    <div class="bottom">
+        <center>
+
+            <span>copyright </span><span class="iconify" data-icon="ant-design:copyright-outlined"></span>
+            <span>2021 All rights reserved | This template is made with</span>
+            <span class="iconify" data-icon="ant-design:heart-filled">by</span>
+            <a href="">malakmaurice123</a>
+        </center>
+    </div>
+</footer>

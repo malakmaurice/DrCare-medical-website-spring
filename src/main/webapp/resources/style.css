@@ -1,0 +1,1124 @@
+.hm-gradient {
+  background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
+}
+.navbar .dropdown-menu a:hover {
+  color: #616161 !important;
+}
+.darken-grey-text {
+  color: #2E2E2E;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: inherit;
+  font-family: "inherit", "Work Sans", Arial, sans-serif;
+  color: rgba(255, 255, 255, 0.7);
+  margin: 0;
+  padding: 0;
+ width: 100%;
+}
+
+p {
+  color: rgba(0, 0, 0, .4);
+  font-size: 16px;
+  line-height: 1.8;
+  margin-bottom: 3rem;
+}
+
+.info-bar {
+  width: 100%;
+  background-color: #fafafa;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.info-bar .logo h2 {
+  color: #141313;
+  font-weight: 900;
+  font-weight: 900;
+  font-size: 24px;
+  margin-left: 1rem;
+}
+
+.info-bar .logo h2 span {
+  color: #2f89fc;
+}
+
+.info-bar .info {
+  font-weight: 400;
+  line-height: 1.8;
+  display: flex;
+  margin-left: 50px;
+}
+
+.info-bar .info .box {
+  display: flex;
+  align-items: center;
+  width: 30%;
+  margin-left: 45px;
+}
+
+.info .text {
+  margin-left: 15px;
+  color: rgba(0, 0, 0, .6);
+  width: 90%;
+}
+
+.info-bar .info .icon {
+  width: 60px;
+  height: 60px;
+  background: white;
+  text-align: center;
+  line-height: 60px;
+  border-radius: 50%;
+  font-size: 16px;
+  color: #2f89fc;
+}
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.nav-bar a {
+  color: black;
+  padding: 0;
+  margin: 0;
+  font-weight: 500;
+  font-size: 13px;
+}
+
+.nav-bar li {
+  padding: 25px;
+  display: inline;
+}
+
+.nav-bar a:hover {
+  color: #2f89fc;
+}
+
+.temp-btn {
+  background-color: #ff8000;
+  border: 1px solid #ff8000;
+  color: white;
+  font-size: 1rem;
+  font-weight: 400;
+  border-radius: 40px;
+  padding: 10px;
+  margin-right: 50px;
+}
+.nav-bar ul {
+  margin-right: 20px;
+}
+
+
+.header-section {
+  background: url(images/bg_1.jpg);
+  height: 300px;
+  position: relative;
+  display: none;
+}
+
+.layer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.8;
+  background: rgb(47, 137, 252);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.layer p {
+  text-align: center;
+  color: white;
+}
+
+.layer p span:hover {
+  color: black;
+}
+
+.layer h1 {
+  color: rgba(255, 255, 255);
+  font-weight: 900;
+  font-size: 42px;
+}
+
+.slider {
+  position: relative;
+  margin: auto;
+}
+
+.slider .slide {
+  height: 600px;
+}
+
+.dots {
+  position: relative;
+  text-align: center;
+  top: 110px;
+}
+
+.dot {
+  cursor: pointer;
+  width: 12px;
+  height: 12px;
+  background-color: #aa9191;
+  display: inline-block;
+  border-radius: 50%;
+  margin: 2px;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #bbb;
+}
+
+.patient .active, .patient .dot:hover {
+  background-color: #2f89fc;
+}
+
+.slide .content {
+  position: absolute;
+  bottom: 35%;
+  left: 5%;
+  width: 100%;
+}
+
+.slide .content h1 {
+  color: #2f89fc;
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 1.2;
+}
+
+.slide .content h1 span {
+  color: black;
+}
+
+.slide .content h3 {
+  color: rgba(0, 0, 0, 0.4);
+  margin-top: 30px;
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.slide .temp-btn {
+  margin-top: 20px;
+  width: 300px;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: .4
+  }
+  to {
+    opacity: 1
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: .4
+  }
+  to {
+    opacity: 1
+  }
+}
+
+.slide:first-child {
+  background: url(images/bg_1.jpg) no-repeat;
+  background-size: cover;
+}
+
+.slide:nth-child(2) {
+  background: url(images/bg_2.jpg) no-repeat;
+  background-size: cover;
+}
+
+.service-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  position: relative;
+  top: -50px;
+}
+
+.service-container .box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 22%;
+  height: 300px;
+  background: #2f89fc;
+}
+
+.service-container .box:nth-child(even) {
+  background: #0c75fb;
+}
+
+.service-container .box .icon {
+  margin-top: 20px;
+  width: 80px;
+  height: 80px;
+  background: #61a6fd;
+  border-radius: 50%;
+  text-align: center;
+  position: relative;
+}
+
+.service-container .box .icon img {
+  width: 45px;
+  height: 45px;
+  position: relative;
+  top: 15px;
+}
+
+.service-container .box p {
+  text-align: center;
+  width: 70%;
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 1.6;
+}
+
+.about-drcare {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  color: black;
+}
+
+.about-drcare .photo {
+  position: relative;
+  top: -50px;
+  width: 32%;
+  margin-right: 108px;
+}
+
+.about-drcare .photo img {
+  width: 100%;
+  height: 750px;
+}
+
+.about-drcare .content {
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-drcare .content h5 {
+  letter-spacing: 2px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.about-drcare .content h1 {
+  font-weight: 900;
+  font-size: 28px;
+  margin-bottom: 3rem;
+}
+
+.about-drcare .content p {
+  color: rgba(0, 0, 0, .4);
+  font-size: 16px;
+  line-height: 1.8;
+  margin-bottom: 3rem;
+}
+
+.about-drcare .content .service {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.about-drcare .content .service .box {
+  width: 50%;
+  display: flex;
+}
+
+.box .icon {
+  border: 2px solid #2F89FC;
+  width: 60px;
+  height: 55px;
+  position: relative;
+  text-align: center;
+}
+
+.box img {
+  width: 35px;
+  height: 35px;
+  position: relative;
+  top: 10px;
+}
+
+.about-drcare .box .content {
+  margin-left: 20px;
+  width: 70%;
+}
+
+.box .content p {
+  margin-top: 10px;
+}
+
+.department {
+  width: 100%;
+}
+
+.department .contant {
+  text-align: center;
+  color: black;
+}
+
+.department .contant h5 {
+  letter-spacing: 2px;
+}
+
+.department .contant h1 {
+  font-weight: 700;
+  color: rgba(0, 0, 0, .8);
+}
+
+.department .contant h6 {
+  margin-top: 15px;
+  margin-bottom: 50px;
+  color: rgba(0, 0, 0, .6);
+}
+.department .box .content {
+  margin-left: 20px;
+  width: 70%;
+}
+.department .menu {
+  color: black;
+  display: flex;
+  margin-left: 6%;
+  margin-right: 7%;
+  height: 90px;
+  background-color: #0000000D;
+}
+
+.department .menu .item {
+  width: 20%;
+  cursor: pointer;
+  text-align: center;
+  padding-top: 40px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.department .menu .item:hover, .department .menu .active {
+  background-color: #2f89fc;
+}
+
+.department h1 {
+  color: black;
+}
+
+.department .block {
+  display: none;
+}
+
+.department .active {
+  display: block;
+}
+
+.department .dep {
+  display: flex;
+  flex-direction: row;
+  width: 87%;
+  margin-left: 6%;
+  margin-right: 7%;
+  background-color: #fafafa;
+  padding-top: 60px;
+  padding-left: 4%;
+  margin-top: 20px;
+}
+
+.department .dep .description {
+  width: 65%;
+}
+
+.department .dep .description .boxes {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.department .box {
+  width: 50%;
+  display: flex;
+}
+
+.department .box h4 {
+  padding: 0;
+  margin: 0;
+  color: black;
+}
+
+.department .dep .photo {
+  width: 30%;
+  overflow: hidden;
+  background-image: url(images/Neurolgy.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-right: 4%;
+  margin-bottom: 40px;
+  margin-left: 5%;
+}
+
+.department .dep .description h1 {
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.booking {
+  display: flex;
+}
+
+.animate-bottom {
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 2s;
+  animation-name: animatebottom;
+  animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+  0% {
+    height: 0;
+  }
+  50% {
+    height: 100%;
+  }
+}
+
+@keyframes animatebottom {
+  0% {
+    height: 0;
+  }
+  50% {
+    height: 100%;
+  }
+}
+
+.booking .consultation {
+  width: 50%;
+  background-color: #2f89fc;
+}
+
+.consultation .contant {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-left: 25%;
+  padding-right: 5%;
+  padding-top: 50px;
+  margin-bottom: 50px;
+}
+
+.booking form {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.field {
+  width: 50%;
+}
+
+.booking .consultation input, select, textarea {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 16px;
+  border: none;
+  background-color: #2f89fc;
+  margin-left: 0;
+  padding-left: 0;
+  margin-bottom: 50px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+  width: 80%;
+  outline: none;
+}
+
+.booking select {
+  margin: 0;
+  width: 86%;
+}
+
+::placeholder {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.booking .contant h4 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 300;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.booking h1 {
+  color: white;
+  font-weight: 900;
+  font-size: 34px;
+  margin-bottom: 30px;
+}
+
+.booking p {
+  color: rgba(255, 255, 255, 0.9);
+  line-height: 2;
+  margin-bottom: 40px;
+}
+
+.booking .field .sub-btn {
+  background-color: #ff8000;
+  border: 1px solid #ff8000;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 1.1rem;
+  font-weight: 400;
+  border-radius: 40px;
+  padding: 10px;
+  width: 85%;
+}
+
+.booking .facts {
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  align-items: center;
+}
+
+.facts .data {
+  display: flex;
+  flex-wrap: wrap;
+  width: 60%;
+  height: 80%;
+}
+
+.fact-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px;
+  width: 40%;
+  color: red;
+  background-color: #fafafa;
+  text-align: center;
+}
+
+.fact-item h1 {
+  color: #2f89fc;
+  font-size: 44px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.fact-item h4 {
+  color: black;
+  font-weight: 300;
+  margin: 0;
+}
+
+.facts .text {
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: 500;
+  font-size: 16px;
+  transform: rotate( 180deg);
+  text-orientation: sideways;
+  writing-mode: vertical-lr;
+}
+
+.doctor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.doctor h4 {
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.doctor h1 {
+  color: rgba(0, 0, 0, 0.8);
+  font-weight: 800;
+  font-size: 34px;
+  margin-bottom: 30px;
+}
+
+.doctor p {
+  color: rgba(0, 0, 0, 0.6);
+  text-align: center;
+  width: 45%;
+  margin-bottom: 40px;
+}
+
+.doctor .contant {
+  display: flex;
+  margin-left: 5%;
+}
+
+.doctor .contant .blog {
+  display: flex;
+  flex-direction: column;
+  width: 22.5%;
+  align-items: center;
+}
+
+.doctor .contant .blog .photo img {
+  width: 100%;
+  height: 400px;
+}
+
+.doctor .contant .blog .text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.doctor .contant .blog .text p {
+  width: 85%;
+}
+
+.doctor .contant .blog .text h1 {
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+
+.doctor .contant .blog .text h4 {
+  color: rgba(0, 0, 0, 0.4);
+  margin-bottom: 10px;
+}
+
+.patient {
+  background-color: #fafafa;
+  padding: 80px;
+}
+
+.content .center {
+  text-align: center;
+}
+
+.content .center h4 {
+  color: rgba(0, 0, 0, .8);
+  letter-spacing: 4px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.content .center h1 {
+  color: rgba(0, 0, 0, .8);
+  font-weight: 900;
+}
+
+.patient-slide .content {
+  display: flex;
+  color: #141313;
+  justify-content: center;
+  position: relative;
+
+}
+
+.patient-slide .patient-img {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  border-radius: 10%;
+  background: url(images/pexels-jeandaniel-francoeur-7596690.jpg) no-repeat;
+  background-size: contain;
+  top: 50px;
+  margin-right: 30px;
+}
+
+.patient-slide .content .qoute h6 {
+  color: #2f89fc;
+}
+
+.patient-slide .content .qoute h5 {
+  font-weight: 500;
+}
+
+.patient-slide .content .qoute p {
+  color: rgba(0, 0, 0, 0.7);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.price-plan {
+  display: flex;
+  justify-content: center;
+}
+
+.price-plan .plan {
+  width: 20%;
+  position: relative;
+  margin: auto;
+}
+
+.price-plan .plan .content {
+  color: #141313;
+  text-align: center;
+  width: 280px;
+  border: 2px #2f89fc solid;
+  border-radius: 5px;
+}
+
+.price-plan .plan h2 {
+  font-weight: 500;
+  padding: 15px;
+  padding-bottom: 35px;
+}
+
+.price-plan .plan .price {
+  font-size: 28px;
+  font-weight: 900;
+  color: rgb(47, 137, 252);
+}
+
+.price-plan .plan .session {
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.price-plan .plan p {
+  line-height: 3;
+  padding-top: 35px;
+  padding-bottom: 20px;
+}
+
+.price-plan .plan .price-btn {
+  background-color: rgb(47, 137, 252);
+  border: 1px solid;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 500;
+  border-radius: 25px;
+  padding: 10px;
+  position: absolute;
+  bottom: -21px;
+  left: 70px;
+  width: 50%;
+  overflow: visible;
+}
+
+.price-plan .plan .price-btn:hover {
+  background-color: #ff8000;
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  background: #141313;
+}
+
+.main-content {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 1.5rem;
+  background: #141313;
+  padding-bottom: 3rem;
+  padding-top: 4rem;
+  justify-content: space-evenly;
+}
+
+.main-content .box {
+  width: 20rem;
+}
+
+footer h2 {
+  margin-bottom: 30px;
+  margin-top: 20px;
+  color: #fff;
+  font-weight: 400;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+a:hover {
+  color: #e6e6e6;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+ul li {
+  padding-bottom: 10px;
+}
+
+.main-content .first {
+  margin-left: 60px;
+}
+
+.main-content .first .about h2 {
+  color: #2f89fc;
+}
+
+.main-content .first h2 span {
+  color: #ff8000;
+}
+
+.main-content .first .content {
+  width: 90%;
+  margin: 0;
+}
+
+.main-content .first .content p {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 14px;
+}
+
+.main-content .first .question {
+  margin-top: 80px;
+}
+
+.main-content .first .question .place {
+  margin-bottom: 20px;
+}
+
+.main-content .first .question .phone {
+  margin-bottom: 20px;
+}
+
+.main-content .first .question .email {
+  margin-bottom: 20px;
+}
+
+.main-content .first .question .social {
+  margin-bottom: 20px;
+}
+
+.main-content .first .question .iconify {
+  color: white;
+  font-size: 20px;
+}
+
+.main-content .first .question .social .iconify {
+  background: rgba(255, 255, 255, .05);
+  margin-left: 15px;
+  font-size: 22px;
+  padding: 10px;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+}
+
+.main-content .first .question .text {
+  margin-left: 5px;
+  font-size: 14px;
+}
+
+.main-content .second {
+  margin-left: 40px;
+  margin-right: 0;
+  padding: 0;
+  width: 10rem;
+}
+
+.second .service {
+  margin-top: 40px;
+}
+
+.third .first-blog {
+  display: flex;
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+.third .second-blog {
+  display: flex;
+}
+
+.third img {
+  width: 80px;
+  height: 80px;
+}
+
+.main-content .third .content .data-blog {
+  margin: 0;
+  margin-left: 20px;
+  width: 100%;
+}
+
+.third .data-blog .heading a {
+  color: #f2f2f2;
+}
+
+.third .data-blog .heading a:hover {
+  color: #2f89fc;
+}
+
+.third .data {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  font-size: 12px;
+  margin-top: 15px;
+  padding-top: 10px;
+  color: gray;
+}
+
+.third .data a span {
+  color: gray;
+}
+
+.third .data-blog .date {
+  width: 50%;
+}
+
+.third .data-blog .admin {
+  width: 50%;
+}
+
+.third .data-blog .comment {
+  padding-top: 10px;
+}
+
+.forth .hour {
+  margin-left: 30px;
+  margin-bottom: 40px;
+  font-size: 18px;
+}
+
+.forth button {
+  color: white;
+  background: #2f89fc;
+  border: 1px solid #2f89fc;
+  border-radius: 3px;
+  width: 250px;
+  height: 52px;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.forth input {
+  width: 240px;
+  height: 42px;
+  text-align: center;
+  background: rgba(255, 255, 255, .1);
+  border: 1px solid rgba(255, 255, 255, .1);
+  border-radius: 3px;
+  color: rgba(255, 255, 255, .7);
+  font-size: 16px;
+}
+
+.bottom {
+  font-size: 14px;
+  padding-bottom: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+  footer {
+    width: 100%;
+    position: relative;
+    bottom: 0px;
+  }
+  .main-content {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .main-content .box {
+    width: 40%;
+    margin: 5px 0;
+  }
+  .info-bar {
+    display: flex;
+    flex-direction: column;
+  }
+  .info-bar .logo {
+    margin-left: 90px;
+  }
+}
+
+@media screen and (max-width:800px) {
+  .service-container {
+    flex-direction: column;
+  }
+  .service-container .box {
+    width: 100%;
+  }
+  .about-drcare {
+    flex-direction: column;
+  }
+  .about-drcare .photo {
+    width: 100%;
+    height: 300px;
+    overflow: hidden
+  }
+  .about-drcare .content {
+    width: 100%;
+  }
+  .about-drcare .content .service {
+    flex-direction: column;
+  }
+  .about-drcare .content .service .box {
+    width: 100%;
+  }
+  .booking {
+    flex-direction: column;
+  }
+  .booking .consultation {
+    width: 100%;
+  }
+  .consultation .contant {
+    padding-left: 5%;
+    width: 90%;
+    padding-right: 5%;
+  }
+  .contant form {
+    flex-direction: column;
+  }
+  .contant form .field {
+    width: 100%;
+  }
+  footer {
+    position: relative;
+    bottom: 0px;
+  }
+  .main-content {
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-left: 40px;
+  }
+  .main-content .box {
+    margin: 5px 0;
+    width: 100%;
+  }
+  .info-bar .info {
+    display: none;
+  }
+  .nav-bar li a {
+    display: block;
+  }
+}

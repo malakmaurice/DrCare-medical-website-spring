@@ -1,0 +1,69 @@
+<div class="bar" id="home">
+    <div class="info-bar">
+        <div class="logo">
+            <h2>Dr.<span>care</span></h2>
+        </div>
+        <div class="info">
+            <div class="address box">
+                <div class="icon">
+                    <span class="iconify" data-icon="fa-solid:map"></span>
+                </div>
+                <div class="text">
+                    <span>Address: 14 Abd El-malak Street, cairo</span>
+                </div>
+            </div>
+            <div class="email box">
+                <div class="icon">
+                    <span class="iconify" data-icon="fa-solid:paper-plane"></span>
+                </div>
+                <div class="text">
+                    <span> Email: malakmaurice123</span>
+                </div>
+
+            </div>
+            <div class="phone box">
+                <div class="icon">
+                    <span class="iconify" data-icon="bx:bxs-phone"></span>
+                </div>
+                <div class="text">
+                    <span>phone: 012236678</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<nav class="mb-4 navbar navbar-expand-lg navbar-dark cyan">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-4" aria-controls="navbarSupportedContent-4" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSuapportedContent-4">
+        <div class="nav-bar">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">DOCTOR</a></li>
+                <li><a href="#">DEPARTMENTS</a></li>
+                <li><a href="#">PRICING</a></li>
+                <li><a href="#">BLOG</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+        </div>
+
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item"> <a href="#booking">
+                <button class="temp-btn">Make an appointment</button>
+            </a> </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-4" data-toggle="dropdown"
+                   aria-haspopup="true" aria-expanded="false"><i class="fa fa-user"></i> <security:authentication property="principal.username"/>  </a>
+                <div class="dropdown-menu dropdown-menu-right dropdown-cyan" aria-labelledby="navbarDropdownMenuLink-4">
+                    <a class="dropdown-item" href="#">My account</a>
+                    <a class="dropdown-item" href="javascript: document.logoutForm.submit()">Log out</a>
+                </div>
+            </li>
+            <form:form name="logoutForm" action="${pageContext.request.contextPath}/logout" method="post">
+                <input type="submit" hidden/>
+            </form:form>
+        </ul>
+    </div>
+</nav>
